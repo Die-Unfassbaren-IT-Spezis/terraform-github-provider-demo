@@ -57,9 +57,11 @@ Terraform muss sich bei GitHub authentifizieren.
 ### So geht's grob:
 
 1. Öffne GitHub
-2. Gehe in die **Developer Settings**
-3. Erstelle einen **Personal Access Token**
-4. Gib dem Token passende Rechte für Repositories
+2. Gehe in die **Developer Settings**. Die findest du, indem du auf dein User-Profil klickst und dann auf Settings und dann nach ganz unten scrollst.
+3. Erstelle einen **Personal Access Token**. Gehe dabei auf "Generate new Token (classic)"
+4. Gib dem Token passende Rechte für Repositories. Es reichen folgende: repo, admin:org, user, delete_repo
+5. Klicke auf Generate Token
+6. Speichere dir den Code ab, der dir angezeigt wird (Achtung, dieser wird wirklich nur einmal angezeigt, deswegen dringend abspeichern!)
 
 Für dieses einfache Beispiel reicht in der Regel ein Token, das Repositories verwalten darf.
 
